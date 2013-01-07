@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="SAJ - Simple API for JSON">
+  <publishDate position="navigation-top" format="dd-MM-yyyy"/>
+  <body>
+    <links>
+      <item name="JSON" href="http://www.json.org/" />
+      <item name="JSON Schema" href="http://www.json.com/"/>
+    </links>
+
+    <menu name="SAJ">
+      <item name="Introduction" href="index.html"/>
+      <item name="Download" href="http://sourceforge.net/project/showfiles.php?group_id=212704"/>
+      <item name="Documentation" href="documentation.html"/>
+      <item name="Release Notes" href="release-notes.html" />
+      <item name="Road Map" href="roadmap.html" />
+    </menu>
+    <menu ref="reports"/>
+  </body>
+</project>

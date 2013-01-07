@@ -1,0 +1,16 @@
+Introduction
+
+	SAJ is an event based API to parse json stream. SAJ's nature permit to read json stream without 
+	keep busy system resources.
+	
+API and Implementation
+
+	SAJ supply an abstract API where is possible use different implementation without obligate the 
+	developer to one implementation.
+	Any implementation can be used and configured using the FactoryFinder project (see FactoryFinder 
+	javadoc)
+
+Schema support
+
+	SAJ permits to use a first implementation of json schema validation. Json schema is in 
+	proposal phase and these feature could change during the next phases.

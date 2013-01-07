@@ -1,0 +1,36 @@
+[/*
+{
+	"schemaNamespace" : "http://example.org/1",
+	"type" : { 
+		"attr1" : {"type" : "boolean"},
+		"attr2" : {
+			"type" : "boolean",
+			"options" : ["a1", "a2"]
+		} 
+	},
+	"final" : true
+},
+{
+	"schemaNamespace" : "http://example.org",
+	"type" : ["null", { 
+							"type" : [["null","string"]]
+						}],
+	"maxItems" : 3,
+	"pattern" : "patt"
+},
+{
+	"schemaNamespace" : "http://example.org/2",
+	"type" : ["null", [["null","string"]]],
+	"maxItems" : 3,
+	"pattern" : "patt"
+}*/
+{
+	"schemaNamespace" : "http://example.org/4",
+	"type" : {
+		"person" : {"type" : "schema",
+					"namespace" : "http://example.org/1"
+					}
+	},
+}
+
+]

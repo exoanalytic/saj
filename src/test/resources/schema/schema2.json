@@ -1,0 +1,24 @@
+{
+	"schemaNamespace" : "http://example.org/1",
+	"type" : { 
+		"name" : {"type" : "string"},
+		"surname" : {"type" : "string"},
+		"birthDate" : {"type" : "string", "format" : "date", "optional":false},
+		"data" : {
+			"type" : ["null", [[{
+								"type" : {
+											"attr1" : "string"
+										},
+								"final" : true
+								},{
+								"type" : {
+											"attr2" : "string"
+										},
+								"final" : true
+								}]]],
+			"maxItems" : 3,
+			"minItems" : 2
+		} 
+	},
+	"final" : true
+}

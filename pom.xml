@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.dangelo</groupId>
+  <artifactId>saj</artifactId>
+  <version>1.2.0</version>
+  <name>SAJ</name>
+  <description>SAJ (Simple API fo JSON) is an event parser of json (similar to SAX for XML). 
+  	This library enable to read massive json stream without overload vm memory.</description>
+  <developers>
+    <developer>
+      <name>Claudio D'Angelo</name>
+      <email>claudio.dangelo@lombardia-servizi.it</email>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>GNU General Public License (GPL)</name>
+      <url>http://www.gnu.org/copyleft/gpl.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>http://jontools.svn.sourceforge.net/viewvc/jontools/trunk/saj/</url>
+  </scm>
+  <reporting>
+  	<plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+          <excludePackageNames>it.dangelo.saj.impl</excludePackageNames>
+          <windowtitle>SAJ - Simple API for JSON</windowtitle>
+        </configuration>
+      </plugin>
+  	</plugins>
+  </reporting>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.5</source>
+          <target>1.5</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <repositories>
+    <repository>
+      <id>jontools</id>
+      <url>http://jontools.sourceforge.net/repository/</url>
+    </repository>
+  </repositories>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.4</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>it.dangelo</groupId>
+      <artifactId>FactoryFinder</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>jontools.server</id>
+      <url>scpexe://shell-ssh.sourceforge.net/home/groups/j/jo/jontools/htdocs/repository</url>
+    </repository>
+    <site>
+      <id>jontools.server</id>
+      <url>scpexe://shell-ssh.sourceforge.net/home/groups/j/jo/jontools/htdocs/saj</url>
+    </site>
+  </distributionManagement>
+  <issueManagement>
+  	<url>http://sourceforge.net/tracker/?group_id=212704</url>
+  </issueManagement>
+</project>
+

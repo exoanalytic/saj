@@ -1,0 +1,26 @@
+{
+	"name":"Claudio",
+	"surname": "D'Angelo",
+	"data" : [90, 60, 90],
+	"obj2" : {
+		"list" : [1.245e-10	,12]
+	},
+	"array" : 
+	[
+		{"nome":"Francesco"},
+		{"nome":"Francesco"},
+		{"nome":"Francesco"},
+		{"nome":"Francesco"},
+		{"nome":"Francesco"},
+		{"nome":"Francesco"},
+		{"nome":"Francesco"},
+		{"nome":"Francesco"},
+		{"nome":"Francesco"},
+		{"nome":"Francesco"},
+		{"nome":"Francesco"},
+		{"nome":"Francesco"},
+		{"nome":"Francesco"},
+		{"nome":"Francesco"}
+	]
+	
+}

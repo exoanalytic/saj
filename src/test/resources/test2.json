@@ -1,0 +1,14 @@
+{
+	"name":"Claudio",
+	"surname": "D'Angelo",
+	"data" : [
+		{
+			"attr1" : "Claudio"
+		},
+		{
+			"attr2" : "Claudio"
+		}
+	],
+	"birthDate" : "2007-01-01"
+	
+}

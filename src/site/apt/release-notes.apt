@@ -1,0 +1,19 @@
+saj-1.2.0
+
+* Basic json schema validation support
+	
+	Basic support for json schema validation. This support only one schema validation
+	without schema reference.
+	Type schema support is limited to basic type, date and datetime
+		
+* Package refactoring
+	
+	To add the schema support has been done a refactoring of packages
+
+saj-1.0.0
+
+* First release
+
+	N.A.
+
+	 
