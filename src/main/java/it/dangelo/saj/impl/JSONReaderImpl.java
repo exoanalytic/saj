@@ -55,8 +55,9 @@ public class JSONReaderImpl implements JSONReader{
 		parseStream(new CharReaderStream(reader), uri);
 	}
 
+	DocumentHandler handler; 
 	public void parseStream(CharStream charStream, URI uri) throws SAJException {
-		DocumentHandler handler = new DocumentHandler(charStream, 
+		handler = new DocumentHandler(charStream, 
 				this.parserConfiguration.buildEventPipeline(properties, uri));
 		handler.setJsonReference(uri);
 		handler.parse();
@@ -66,6 +67,11 @@ public class JSONReaderImpl implements JSONReader{
 		*/
 		
 	}
+	
+	public int getOffset() {
+		return handler.getOffset();
+	}
+	
 	/*
 	private ContentHandler getInternalContentHandler() throws SAJException{
 		if(this.validate) {

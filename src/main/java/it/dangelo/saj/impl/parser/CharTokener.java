@@ -290,5 +290,9 @@ public class CharTokener {
     public int getTokenCharInLine() {
     	return this.charStream.getCharElement().getCharPositionInLine();
     }
+
+	public int getOffset() {
+		return charStream.getOffset();
+	}
 	
 }

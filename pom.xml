@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>it.dangelo</groupId>
   <artifactId>saj</artifactId>
-  <version>1.2.0</version>
+  <version>1.2.1-SNAPSHOT</version>
   <name>SAJ</name>
   <description>SAJ (Simple API fo JSON) is an event parser of json (similar to SAX for XML). 
   	This library enable to read massive json stream without overload vm memory.</description>

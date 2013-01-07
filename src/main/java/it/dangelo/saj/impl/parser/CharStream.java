@@ -95,4 +95,8 @@ public abstract class CharStream {
 	}
 	
 	public abstract void close() throws IOException;
+
+	public int getOffset() {
+		return this.charPosition;
+	}
 }

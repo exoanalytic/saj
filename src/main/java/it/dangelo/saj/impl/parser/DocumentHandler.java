@@ -214,4 +214,8 @@ public class DocumentHandler {
 			throw new SAJParserException("Expecting end of object but found " + this.charTokener.getToken(), this.line(), this.charInLine());
 		this.pipeline.endObject();
 	}
+
+	public int getOffset() {
+		return this.charTokener.getOffset();
+	}
 }
